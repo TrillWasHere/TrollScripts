@@ -1,0 +1,249 @@
+-- Press "P" to Open/Close
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Frame_4 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame_5 = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+print("Dark Hub Serverside Loaded.")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+Frame.Position = UDim2.new(0.30854702, 0, 0.283861727, 0)
+Frame.Size = UDim2.new(0, 555, 0, 320)
+
+UICorner.Parent = Frame
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+Frame_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_2.Size = UDim2.new(0, 555, 0, 19)
+
+UICorner_2.Parent = Frame_2
+
+Frame_3.Parent = Frame_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+Frame_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, 0.315789461, 0)
+Frame_3.Size = UDim2.new(0, 555, 0, 25)
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 112, 0, 31)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Dark Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 21.000
+
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, 0.096874997, 0)
+Frame_4.Size = UDim2.new(0, 35, 0, 240)
+
+TextLabel_2.Parent = Frame_4
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Size = UDim2.new(0, 35, 0, 20)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "1"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 16.000
+
+Frame_5.Parent = Frame
+Frame_5.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0.0630630627, 0, 0.096874997, 0)
+Frame_5.Size = UDim2.new(0, 400, 0, 240)
+
+TextBox.Parent = Frame_5
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.Size = UDim2.new(0, 400, 0, 232)
+TextBox.Font = Enum.Font.GothamSemibold
+TextBox.Text = "print"
+TextBox.TextColor3 = Color3.fromRGB(122, 185, 255)
+TextBox.TextSize = 15.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_3.Parent = Frame_5
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Size = UDim2.new(0, 129, 0, 14)
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "(            )"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 15.000
+
+TextLabel_4.Parent = Frame_5
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Size = UDim2.new(0, 129, 0, 14)
+TextLabel_4.Font = Enum.Font.GothamSemibold
+TextLabel_4.Text = "\"Test\""
+TextLabel_4.TextColor3 = Color3.fromRGB(163, 255, 164)
+TextLabel_4.TextSize = 15.000
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.798198223, 0, 0.115625001, 0)
+ScrollingFrame.Size = UDim2.new(0, 105, 0, 234)
+ScrollingFrame.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+TextButton.Position = UDim2.new(0.0108108111, 0, 0.865625024, 0)
+TextButton.Size = UDim2.new(0, 125, 0, 37)
+TextButton.Font = Enum.Font.GothamBold
+TextButton.Text = "Execute"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 16.000
+
+UICorner_3.Parent = TextButton
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+TextButton_2.Position = UDim2.new(0.24684684, 0, 0.865625024, 0)
+TextButton_2.Size = UDim2.new(0, 125, 0, 37)
+TextButton_2.Font = Enum.Font.GothamBold
+TextButton_2.Text = "Clear"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 16.000
+
+UICorner_4.Parent = TextButton_2
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+TextButton_3.Position = UDim2.new(0.482882887, 0, 0.865625024, 0)
+TextButton_3.Size = UDim2.new(0, 167, 0, 37)
+TextButton_3.Font = Enum.Font.GothamBold
+TextButton_3.Text = "Hide Text"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 16.000
+
+UICorner_5.Parent = TextButton_3
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+TextButton_4.Position = UDim2.new(0.798198223, 0, 0.865625024, 0)
+TextButton_4.Size = UDim2.new(0, 50, 0, 37)
+TextButton_4.Font = Enum.Font.GothamBold
+TextButton_4.Text = "RE"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 16.000
+
+UICorner_6.Parent = TextButton_4
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+TextButton_5.Position = UDim2.new(0.897297263, 0, 0.865624964, 0)
+TextButton_5.Size = UDim2.new(0, 50, 0, 37)
+TextButton_5.Font = Enum.Font.GothamBold
+TextButton_5.Text = "R6"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 16.000
+
+UICorner_7.Parent = TextButton_5
+
+-- Scripts:
+
+local function LNTW_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	print("Test")
+end
+coroutine.wrap(LNTW_fake_script)()
+local function EWEZGH_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 3
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(EWEZGH_fake_script)()
+local function UYHG_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	print("Fusion Loaded!")
+	local Players = game:GetService("Players")
+	local Player = Players.LocalPlayer
+	local breh = Player:GetMouse()
+	local lol = script.Parent
+	local Open = false
+	function trill(key)
+	if (key == "p") then 
+	if (Open == false) then
+	lol.Enabled = true
+	Open = true
+	elseif (Open == true) then
+	lol.Enabled = false
+	Open = false
+	end
+	end
+	end
+	breh.KeyDown:Connect(trill)
+end
+coroutine.wrap(UYHG_fake_script)()
